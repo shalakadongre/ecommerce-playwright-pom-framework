@@ -13,7 +13,7 @@ for(const data of users)
 
 
 
-    test.only(`@sanity @regression PomTC03-AddtoCart-${data.username}`, async ({page})=>
+    test(`@sanity @regression PomTC03-AddtoCart-${data.username}`, async ({page})=>
      {
         const homePg = new HomePage(page);
         const loginPg = new LoginPage(page);
