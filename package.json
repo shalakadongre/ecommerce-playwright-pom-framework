@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test --headed--grep @regression",
-    "sanity"     : "npx playwright test --headed--grep @sanity",
+    "regression": "npx playwright test --grep @regression",
+    "sanity"     : "npx playwright test --grep @sanity",
     "datadriven" : "npx playwright test --grep @datadriven "     
 },
   "keywords": [],
